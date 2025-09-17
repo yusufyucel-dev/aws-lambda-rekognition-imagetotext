@@ -22,6 +22,18 @@ Automatically extract text from images uploaded to an S3 bucket using Amazon Rek
 - Amazon CloudWatch (logs and monitoring)
 - AWS IAM (roles and permissions)
 
+## 📷 Screenshots
+
+### 1. Uploading Image to S3
+![S3 Upload](screenshots/s3-upload.jpeg)
+
+### 2. Lambda Execution Log (CloudWatch)
+![CloudWatch Log](screenshots/cloudwatch-log.jpeg)
+
+### 3. Extracted JSON Output
+![JSON Output](screenshots/json-output.jpeg)
+
+
 ## 📌 Architecture
 1. A user uploads an image (`.jpg` or `.png`) to the **rekognition-image-input** S3 bucket.
 2. The S3 event triggers the **rekognition-image-to-text** Lambda function.
@@ -29,4 +41,6 @@ Automatically extract text from images uploaded to an S3 bucket using Amazon Rek
 4. The detected text is saved back into the same bucket as a `.json` file.
 5. CloudWatch logs show the detected text for validation.
 
+## 🎨 Architecture Diagram
+![Architecture](diagram.jpeg)
 
