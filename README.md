@@ -42,5 +42,5 @@ Automatically extract text from images uploaded to an S3 bucket using Amazon Rek
 5. CloudWatch logs show the detected text for validation.
 
 ## 🎨 Architecture Diagram
-![Architecture](diagram.png)
+![Architecture](screenshots/diagram.jpeg)
 
