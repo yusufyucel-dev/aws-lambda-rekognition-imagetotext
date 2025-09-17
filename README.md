@@ -25,13 +25,13 @@ Automatically extract text from images uploaded to an S3 bucket using Amazon Rek
 ## 📷 Screenshots
 
 ### 1. Uploading Image to S3
-![S3 Upload](screenshots/s3-upload.jpeg)
+![S3 Upload](screenshots/s3-upload.png)
 
 ### 2. Lambda Execution Log (CloudWatch)
-![CloudWatch Log](screenshots/cloudwatch-log.jpeg)
+![CloudWatch Log](screenshots/cloudwatch-log.png)
 
 ### 3. Extracted JSON Output
-![JSON Output](screenshots/json-output.jpeg)
+![JSON Output](screenshots/json-output.png)
 
 
 ## 📌 Architecture
